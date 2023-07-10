@@ -1,0 +1,33 @@
+.Contenedor-enca { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Contenedor-enca .titulo { 
+    font-size: 20px;
+}
+
+.Contenedor-enca .menu .menu-items { 
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    align-items: center;
+}
+
+.Contenedor-enca .menu .menu-items .inicio { 
+    background: rgb(226, 164, 57);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.Contenedor-enca .menu .menu-items a { 
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    padding: 10px;
+    font-size: 18px;
+}

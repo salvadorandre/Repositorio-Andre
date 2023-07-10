@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+ 
 import './App.css';
-
+import Encabezado from './Componentes/Encabezado';
+import InformacionUno from './Componentes/InformacionUno';
+import InformacionDos from './Componentes/InformacionDos';
+import Pie from './Componentes/Pie';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Encabezado></Encabezado>
+      <InformacionUno></InformacionUno>
+      <InformacionDos></InformacionDos>
+      <Pie></Pie>
     </div>
   );
 }
